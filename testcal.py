@@ -1,4 +1,5 @@
 import unittest
+import psutil
 from unittest.mock import patch
 from menu_selection import SystemMonitor
  
