@@ -24,7 +24,7 @@ podTemplate(containers: [
             sh 'ls -la'
             sh 'python3 -V'
             sh 'hostname'
-            sh 'git clone https://github.com/khaihazard/jenkins_python.git'
+            sh 'git clone https://github.com/yuslianagit/jenkins_python.git'
             sh 'ls -la jenkins_python'
             sh 'python3 jenkins_python/cal.py'
           }
